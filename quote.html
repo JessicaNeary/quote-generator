@@ -17,13 +17,20 @@
 
 	<body>
 
+		<h3 class = "row">Random Quote Generator</h3>
+
 		<div class = "container">
-			<div class = "row" id="quote-display"></div>
-			<div class = "row" id="author-display"></div>
+
+			<div class="row">
+				<h1 id="quote-display"></h1>
+			</div>
+			<div class="row">
+				<h4 id="author-display"></h4>
+			</div>
 
 			<div class="quote">
 				<button onclick="requestQuote()">New quote</button>
-				<button onClick="tweet()">Tweet</button>
+				<button id="tweet" onClick="tweet()">Tweet</button>
 			</div>
 		</div>
 

@@ -1,0 +1,37 @@
+html{
+	background-color: #93979e;
+}
+
+.container{
+	margin-top: 8%;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	border: solid 2px black;
+	background-color: #eff5ff;
+	padding: 1em;
+}
+
+button{
+	border-color: black;
+	background-color: #ced3db;
+	font-weight: bold;
+}
+
+h1{
+	font-style: italic;
+}
+
+h3{
+	padding-top: 1%;
+	text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #eff5ff;
+	text-transform: uppercase;
+}
+
+h4{
+	text-align:right;
+}
+
+#tweet{
+	float: right;
+}
