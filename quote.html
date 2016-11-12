@@ -1,15 +1,33 @@
 <html lang="en">
 
+
 	<head>
+
 		<title>Quote Generator</title>
-		<link rel="stylesheet" href="quote.css">
+		<!-- Javascript -->
 		<script src="quote.js"></script>
+
+		<!--CSS Stylesheets -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+		<link rel="stylesheet" href="quote.css">
+
 	</head>
+
+
 	<body>
-		<div id="quote-display"></div>
-		<div class="quote">
-			<button onclick="requestQuote()">New quote</button>
+
+		<div class = "container">
+			<div class = "row" id="quote-display"></div>
+			<div class = "row" id="author-display"></div>
+
+			<div class="quote">
+				<button onclick="requestQuote()">New quote</button>
+				<button onClick="tweet()">Tweet</button>
+			</div>
 		</div>
+
 	</body>
+
 
 </html>
